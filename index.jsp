@@ -87,7 +87,7 @@ try {
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
+<style>
         html {
         scroll-behavior: smooth;
     }
@@ -747,8 +747,8 @@ try {
 </section>
 </main>
              
-        <!-- Footer Section -->
-        <footer class="footer">
+<!-- Footer Section -->
+<footer class="footer">
             <div class="footer-content">
                 <div class="points">
                     COMPANY

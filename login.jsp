@@ -58,7 +58,7 @@ if (request.getMethod().equals("POST")) {
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
 <style>
-        * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -66,7 +66,7 @@ if (request.getMethod().equals("POST")) {
 }
 body {
   /* background-color: #f4c531; */
-  background-image: url('./image.jpg');
+  background-image: url('./img/53bbbd5cc8d5133dba44e4fed8e963ec.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -94,7 +94,8 @@ form {
   justify-content: center;
   backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(255, 255, 255, 0.76);
+    /* background-color: rgba(255, 255, 255, 0.76); */
+    background-color: white;
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
@@ -437,8 +438,17 @@ a:link{
       <div class="paw-l"></div>
       <div class="paw-r"></div>
     </div>
-    <!-- Script -->
-    <script>
+
+<!-- Footer -->
+
+
+
+
+<!-- Footer End -->
+
+
+<!-- Script -->
+<script>
         let usernameRef = document.getElementById("username");
         let passwordRef = document.getElementById("password");
         let eyeL = document.querySelector(".eyeball-l");
